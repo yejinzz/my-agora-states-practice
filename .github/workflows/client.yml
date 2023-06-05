@@ -27,6 +27,6 @@ jobs:
         run: |
           aws s3 sync \
             --region ap-northeast-2 \
-            build s3://aws-s3-github-action-practice \
+            build s3://fe-36-yejinzz-s3 \
             --delete
         working-directory: ./
