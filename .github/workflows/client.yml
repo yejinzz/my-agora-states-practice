@@ -29,4 +29,4 @@ jobs:
             --region ap-northeast-2 \
             build s3://aws-s3-github-action-practice \
             --delete
-        working-directory: ./client
+        working-directory: ./
